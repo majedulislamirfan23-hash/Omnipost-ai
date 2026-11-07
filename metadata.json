@@ -1,0 +1,6 @@
+{
+  "name": "OmniPost Studio",
+  "description": "Cross-platform social media generator with tailored post copy and native aspect-ratio imagery for LinkedIn, X/Twitter, and Instagram using Gemini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
