@@ -40,6 +40,7 @@ import { AssistantGender } from './components/AnimeAvatar';
 import { GuidelinesModal } from './components/GuidelinesModal';
 import { EmailDispatchModal } from './components/EmailDispatchModal';
 import { LoginModal } from './components/LoginModal';
+import AdMobBanner from './components/AdMobBanner';
 
 const LOCAL_STORAGE_KEY = 'omnipost_studio_campaigns';
 const USER_PROFILE_KEY = 'omnipost_user_profile';
@@ -1050,6 +1051,7 @@ ${campaign.instagram.hashtags.join(' ')}
           setIsSecurityModalOpen(true);
         }}
       />
+      <AdMobBanner />
     </div>
   );
 }
